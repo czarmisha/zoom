@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/BGpro_01.jpg) no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .menu a {
+    text-decoration: none;
+    display: block;
+    padding: 40px 12px 25px 12px;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+header nav .menu a:hover {
+    opacity: 0.5;
+    border-bottom: 3px solid #744e86;
+}
+
+header nav .logo {
+    padding-top: 30px;
+}
+
+header .container .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+header .container .header-content a {
+    display: block;
+    background: #fff;
+}
+
+header .container .header-content .header-btns {
+    display: flex;
+}
+
+header .container .header-content .header-btns a {
+    margin: 30px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+header .container .header-content .header-btns a:hover {
+    box-shadow: rgba(0, 0, 0, 0.63) 0 0 20px;
+}
+
+header .container .header-content .header-btns a .i {
+    font-size: 40px;
+    border-right: 3px solid #eff1f2;
+    padding: 0 10px;
+    color: #9da6ac;
+}
+
+header .container .header-content .header-btns p {
+    margin-bottom: 0px;
+    padding: 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #585b60;
+}
+
+header .container .header-content .header-btns .span {
+    font-size: 22px;
+}
+
+header .container .header-content h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* =============================================iPhone================== */
+
+.iPhone {
+    background: #34363a;
+    /* min-height: 80vh; */
+    padding: 150px 0 0 0;
+}
+
+.box {
+    display: flex;
+    padding-bottom: 100px;
+    text-align: right;
+    line-height: 17px;
+}
+
+.box p {
+    padding-right: 50px;
+    color: #9da6ac;
+    font-size: 17px;
+}
+
+.box2 {
+    display: flex;
+    padding-bottom: 100px;
+    text-align: left;
+    line-height: 17px;
+}
+
+.box2 p {
+    padding-left: 50px;
+    color: #9da6ac;
+    font-size: 17px;
+}
+
+.bigp {
+    font-size: 22px;
+    color: white;
+}
+
+/* .circle {
+    width: 144px;
+    height: 43px;
+    border-radius: 50%;
+    border: 2px solid #9da6ac;
+    text-align: center;
+} */
+
+/* =================================video======================== */
+.video {
+    min-height: 45vh;
+    background: url(../images/pic.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-btn {
+    text-align: center;
+}
+
+.video-btn p {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    display: block;
+}
+
+.video-btn img {
+    cursor: pointer;
+}
+
+.video-btn:hover img {
+    color: red;
+}
+
+/* iframe{
+    width: 100%;
+    height: 100%;
+    background: #000;
+} */
+/* ======================================iPhone2========================== */
+.iPhonex2 {
+    background: #34363a;
+    /* min-height: 80vh; */
+    padding: 150px 0 50px 0;
+}
+
+.iPhonex2 img {
+    width: 100%;
+}
+
+.iPhonex2 ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.iPhonex2 ul li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    color: #9da6ac;
+    font-size: 17px;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.iPhonex2 h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.iPhonex2 p {
+    color: #9da6ac;
+    font-size: 17px;
+}
+
+/* =======================================video2============================== */
+.video2 iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.video2 {
+    background: url(../images/Layer\ 86.png) no-repeat;
+    background-size: cover;
+    padding: 130px 0;
+}
+
+/* .video2 .col-lg-10{
+    max-width: 600px;
+} */
+/* ===================================================iPhone3========================== */
+
+.iPhone3 {
+    background: #34363a;
+    /* min-height: 80vh; */
+    padding: 150px 0 50px 0;
+}
+
+.iPhone3 img {
+    width: 100%;
+}
+
+.iPhone3 h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.iPhone3 p {
+    color: #9da6ac;
+    font-size: 17px;
+}
+
+.iPhone3 .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* ===========================================gallery=========================== */
+.gallery {
+    background: #ff3366;
+    padding: 130px 0;
+    text-align: center;
+}
+
+.gallery h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.gallery p {
+    color: #e9ebec;
+    font-size: 17px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+    width: 260px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    /* opacity: .2; */
+}
+
+.slick-active {
+    /* opacity: .5; */
+}
+
+.slick-current {
+    /* opacity: 1; */
+}
+
+.slick-dots li button::before {
+    font-family: 'slick';
+    font-size: 50px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    /* <-- Вот этот символ */
+    text-align: center;
+    opacity: .25;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button::before {
+    opacity: .75;
+    color: white;
+}
+
+.slick-dots {
+    bottom: -60px;
+}
+
+/* ========================================pricing========================= */
+.pricing {
+    background: #34363a;
+    /* min-height: 80vh; */
+    padding: 150px 0 150px 0;
+    text-align: center;
+    color: white;
+}
+
+.pricing .col-lg-4 {
+    padding: 15px;
+}
+
+.price-box {
+    text-align: left;
+    background: white;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.top h2 {
+    font-size: 27px;
+    color: #585b60;
+}
+
+.top {
+    background: #f7f8fa;
+    padding: 20px;
+}
+
+.top h3 {
+    font-size: 17px;
+    color: #6e737b;
+}
+
+.top p {
+    font-size: 15px;
+    color: #9da6ac;
+}
+
+.pricing ul {
+    padding: 25px 0 25px 45px;
+}
+
+.pricing h1 {
+    margin-bottom: 70px;
+}
+
+.pricing ul li {
+    color: #606162;
+    list-style: none;
+    font-size: 15px;
+    list-style-image: url(../images/check.png);
+}
+
+.down {
+    padding: 20px;
+    background: #f7f8fa;
+}
+
+.down h2 {
+    color: #9da6ac;
+    font-size: 25px;
+}
+
+.down h2 span {
+    color: #585b60;
+    font-size: 25px;
+}
+
+.down h2 span.second {
+    font-size: 50px;
+}
+
+.down button {
+    padding: 5px 35px;
+    background: #ff3366;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+.down button:hover {
+    background: #d40136;
+}
+
+.donw-btn p {
+    display: inline-block;
+    color: #9da6ac;
+    font-size: 15px;
+    float: right;
+}
+
+.price-box:hover {
+    border: 2px solid #ff3366;
+}
+
+/* ============================================text=============================== */
+.text {
+    padding: 150px 0;
+    text-align: center;
+    background: url(../images/layer84_02.png) no-repeat;
+    background-size: cover;
+}
+
+.text p {
+    font-size: 18px;
+    color: #e7cddc;
+}
+
+.text h3 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.seen {
+    padding: 100px 0;
+    background: #2d2f32;
+    text-align: center;
+}
+
+.seen h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.touch {
+    text-align: center;
+    padding: 150px 0;
+    background: #34363a;
+}
+
+.touch h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.touch p {
+    color: #9da6ac;
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.touch .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.touch input {
+    width: 100%;
+    background: #414347;
+    border: 1px solid #585b60;
+    border-radius: 5px;
+    color: #9da6ac;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.touch .last {
+    height: 170px;
+}
+
+.touch button {
+    color: white;
+    background: #ff3366;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+}
+
+nav img {
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:768px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .touch .form {
+        width: 90%;
+    }
+
+    .logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logos img {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:378px) {
+    .header-btns {
+        flex-direction: column;
+    }
+}
